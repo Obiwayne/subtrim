@@ -12,8 +12,9 @@ Build 4 in RepoQuarry's queue. Built by a scheduled, unattended run on 15 Novemb
 | 08:44 | Three lookups run against the live RepoQuarry MCP server and one Markdown page fetched, to check what the skill relies on. |
 | 08:44-08:46 | Skill, routine and README written. |
 | 08:46-08:53 | Voiceover (one ElevenLabs pass: 7 new lines, line 1 reused from the approved take), stills checked in both sizes, 20 s video rendered in 16:9 and 9:16 at -14.0 LUFS. |
-| 08:53-08:58 | Cover, two screenshots, six slides, guide page and posts written. Two faults found in the pictures and fixed (see below). |
-| 08:58 | End of the build. Nothing pushed or posted. |
+| 08:53-08:56 | Cover, two screenshots, six slides, guide page and posts written. Two faults found in the pictures and fixed (see below). |
+| 08:56-09:00 | Guide checked on its branch: validate and build pass; tests 1,150 of 1,160, the 9 tar-archive failures that also fail on untouched main on this PC, and 1 that passed when run again alone. |
+| 09:00 | End of the build. Nothing pushed or posted. |
 
 ## Numbers measured (sample inbox, "today" set to 15 Nov 2026)
 
