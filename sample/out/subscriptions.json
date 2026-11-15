@@ -1,0 +1,416 @@
+{
+ "summary": {
+  "today": "2026-11-15",
+  "emails_read": 62,
+  "emails_unreadable": 0,
+  "receipts_found": 33,
+  "subscriptions": 10,
+  "monthly_total": {
+   "GBP": 112.54
+  },
+  "yearly_total": {
+   "GBP": 1350.48
+  },
+  "flagged": 3,
+  "flagged_monthly": {
+   "GBP": 20.33
+  },
+  "trials_about_to_charge": 1,
+  "with_alternatives": 8,
+  "flagged_with_alternatives": 2,
+  "already_cancelled": 1,
+  "unclear": 0,
+  "one_off_purchases_ignored": 2,
+  "suspicious_receipts_ignored": 1,
+  "catalogue_snapshot": "2026-11-15"
+ },
+ "subscriptions": [
+  {
+   "name": "Loom",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 12.0,
+   "currency": "GBP",
+   "monthly": 12.0,
+   "last_charge": "2026-11-14",
+   "charges_seen": 4,
+   "flagged": true,
+   "flags": [
+    "Their own email on 2 Nov 2026 says: “You haven't recorded a video in 60 days.”"
+   ],
+   "notes": [],
+   "trial_ends": null,
+   "contact": "",
+   "manage_link": "https://www.loom.com/settings/billing",
+   "repoquarry_product": "loom",
+   "alternatives": [
+    {
+     "name": "Cap",
+     "licence": "AGPL-3.0-only",
+     "coverage": "full",
+     "page": "https://repoquarry.dev/projects/cap/"
+    },
+    {
+     "name": "OBS Studio",
+     "licence": "GPL-2.0-or-later",
+     "coverage": "full",
+     "page": "https://repoquarry.dev/projects/obs-studio/"
+    },
+    {
+     "name": "SendRec",
+     "licence": "AGPL-3.0-only",
+     "coverage": "full",
+     "page": "https://repoquarry.dev/projects/sendrec/"
+    }
+   ]
+  },
+  {
+   "name": "Evernote",
+   "status": "active",
+   "cadence": "yearly",
+   "amount": 99.99,
+   "currency": "GBP",
+   "monthly": 8.33,
+   "last_charge": "2026-11-06",
+   "charges_seen": 1,
+   "flagged": true,
+   "flags": [
+    "Their own email on 12 Oct 2026 says: “We miss you, Sam”"
+   ],
+   "notes": [
+    "Charged 9 days ago for a year. Worth asking for a refund if you cancel now.",
+    "You also pay for Notion, which RepoQuarry lists for the same kind of job (notes)."
+   ],
+   "trial_ends": null,
+   "contact": "",
+   "manage_link": "https://www.evernote.com/billing",
+   "repoquarry_product": "evernote",
+   "alternatives": [
+    {
+     "name": "Logseq",
+     "licence": "AGPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/logseq/"
+    },
+    {
+     "name": "Memos",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/memos/"
+    },
+    {
+     "name": "Notesnook",
+     "licence": "GPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/notesnook/"
+    }
+   ]
+  },
+  {
+   "name": "Zapier",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 24.99,
+   "currency": "GBP",
+   "monthly": 24.99,
+   "last_charge": "2026-11-10",
+   "charges_seen": 4,
+   "flagged": false,
+   "flags": [],
+   "notes": [
+    "Price went up from £19.99 to £24.99."
+   ],
+   "trial_ends": null,
+   "contact": "billing@zapier.com",
+   "manage_link": "https://zapier.com/app/settings/billing",
+   "repoquarry_product": "zapier",
+   "alternatives": [
+    {
+     "name": "Activepieces",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/activepieces/"
+    },
+    {
+     "name": "Huginn",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/huginn/"
+    },
+    {
+     "name": "Langflow",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/langflow/"
+    }
+   ]
+  },
+  {
+   "name": "Brightline Mobile",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 18.75,
+   "currency": "GBP",
+   "monthly": 18.75,
+   "last_charge": "2026-11-12",
+   "charges_seen": 4,
+   "flagged": false,
+   "flags": [],
+   "notes": [
+    "Price went down from £19.10 to £18.75."
+   ],
+   "trial_ends": null,
+   "contact": "bills@brightlinemobile.example",
+   "manage_link": "https://brightlinemobile.example/account/bills",
+   "repoquarry_product": null,
+   "alternatives": []
+  },
+  {
+   "name": "Spotify",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 11.99,
+   "currency": "GBP",
+   "monthly": 11.99,
+   "last_charge": "2026-11-08",
+   "charges_seen": 4,
+   "flagged": false,
+   "flags": [],
+   "notes": [],
+   "trial_ends": null,
+   "contact": "",
+   "manage_link": "https://www.spotify.com/account/subscription",
+   "repoquarry_product": null,
+   "alternatives": []
+  },
+  {
+   "name": "Canva",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 10.99,
+   "currency": "GBP",
+   "monthly": 10.99,
+   "last_charge": "2026-10-21",
+   "charges_seen": 3,
+   "flagged": false,
+   "flags": [],
+   "notes": [],
+   "trial_ends": null,
+   "contact": "",
+   "manage_link": "https://www.canva.com/settings/billing-and-teams",
+   "repoquarry_product": "canva",
+   "alternatives": [
+    {
+     "name": "Excalidraw",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/excalidraw/"
+    },
+    {
+     "name": "Grida",
+     "licence": "Apache-2.0",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/grida/"
+    },
+    {
+     "name": "Presenton",
+     "licence": "Apache-2.0",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/presenton/"
+    }
+   ]
+  },
+  {
+   "name": "Grammarly",
+   "status": "active",
+   "cadence": "quarterly",
+   "amount": 30.0,
+   "currency": "GBP",
+   "monthly": 10.0,
+   "last_charge": "2026-11-05",
+   "charges_seen": 2,
+   "flagged": false,
+   "flags": [],
+   "notes": [],
+   "trial_ends": null,
+   "contact": "billing@grammarly.com",
+   "manage_link": "https://account.grammarly.com/subscription",
+   "repoquarry_product": "grammarly",
+   "alternatives": [
+    {
+     "name": "Harper",
+     "licence": "Apache-2.0",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/harper/"
+    },
+    {
+     "name": "Lexicon",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/lexicon/"
+    },
+    {
+     "name": "proselint",
+     "licence": "BSD-3-Clause",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/proselint/"
+    }
+   ]
+  },
+  {
+   "name": "Notion",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 9.5,
+   "currency": "GBP",
+   "monthly": 9.5,
+   "last_charge": "2026-11-03",
+   "charges_seen": 4,
+   "flagged": false,
+   "flags": [],
+   "notes": [
+    "You also pay for Evernote, which RepoQuarry lists for the same kind of job (notes)."
+   ],
+   "trial_ends": null,
+   "contact": "team@mail.notion.so",
+   "manage_link": "https://www.notion.so/settings/billing",
+   "repoquarry_product": "notion",
+   "alternatives": [
+    {
+     "name": "Logseq",
+     "licence": "AGPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/logseq/"
+    },
+    {
+     "name": "Macro",
+     "licence": "AGPL-3.0",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/macro/"
+    },
+    {
+     "name": "AFFiNE",
+     "licence": "MIT for most code; backend under AFFiNE EE licence (CE parts MPL-2.0)",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/affine/"
+    }
+   ]
+  },
+  {
+   "name": "1Password",
+   "status": "active",
+   "cadence": "monthly",
+   "amount": 3.49,
+   "currency": "GBP",
+   "monthly": 3.49,
+   "last_charge": "2026-11-01",
+   "charges_seen": 4,
+   "flagged": false,
+   "flags": [],
+   "notes": [
+    "You also pay for LastPass, which RepoQuarry lists for the same kind of job (password managers)."
+   ],
+   "trial_ends": null,
+   "contact": "billing@1password.com",
+   "manage_link": "https://my.1password.com/billing",
+   "repoquarry_product": "1password",
+   "alternatives": [
+    {
+     "name": "Ente Auth",
+     "licence": "AGPL-3.0-only",
+     "coverage": "full",
+     "page": "https://repoquarry.dev/projects/ente-auth/"
+    },
+    {
+     "name": "gopass",
+     "licence": "MIT",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/gopass/"
+    },
+    {
+     "name": "Psono",
+     "licence": "Apache-2.0",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/psono/"
+    }
+   ]
+  },
+  {
+   "name": "LastPass",
+   "status": "active",
+   "cadence": "yearly",
+   "amount": 30.0,
+   "currency": "GBP",
+   "monthly": 2.5,
+   "last_charge": "2026-09-20",
+   "charges_seen": 1,
+   "flagged": false,
+   "flags": [],
+   "notes": [
+    "You also pay for 1Password, which RepoQuarry lists for the same kind of job (password managers)."
+   ],
+   "trial_ends": null,
+   "contact": "billing@lastpass.com",
+   "manage_link": "https://lastpass.com/account/billing",
+   "repoquarry_product": "lastpass",
+   "alternatives": [
+    {
+     "name": "Bitwarden",
+     "licence": "AGPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/bitwarden/"
+    },
+    {
+     "name": "KeePassXC",
+     "licence": "GPL-2.0-only OR GPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/keepassxc/"
+    },
+    {
+     "name": "Passbolt",
+     "licence": "AGPL-3.0-only",
+     "coverage": "partial",
+     "page": "https://repoquarry.dev/projects/passbolt/"
+    }
+   ]
+  },
+  {
+   "name": "Framecast",
+   "status": "trial",
+   "cadence": "monthly",
+   "amount": 14.0,
+   "currency": "GBP",
+   "monthly": 14.0,
+   "last_charge": null,
+   "charges_seen": 0,
+   "flagged": true,
+   "flags": [
+    "Free trial turns paid on 20 Nov 2026 at £14.00 a month. Their email: “Your Framecast free trial ends soon”"
+   ],
+   "notes": [],
+   "trial_ends": "2026-11-20",
+   "contact": "team@framecast.example",
+   "manage_link": "https://framecast.example/account/billing",
+   "repoquarry_product": null,
+   "alternatives": []
+  },
+  {
+   "name": "Skillpath",
+   "status": "cancelled",
+   "cadence": "monthly",
+   "amount": 12.0,
+   "currency": "GBP",
+   "monthly": 12.0,
+   "last_charge": "2026-09-12",
+   "charges_seen": 2,
+   "flagged": false,
+   "flags": [],
+   "notes": [],
+   "trial_ends": null,
+   "contact": "billing@skillpath.example",
+   "manage_link": "",
+   "repoquarry_product": null,
+   "alternatives": []
+  }
+ ]
+}
