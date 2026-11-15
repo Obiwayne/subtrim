@@ -45,8 +45,7 @@ def draft(sub, scan):
         lines.append(f"Please cancel my {sub.name} subscription and turn off auto-renewal.")
         lines.append(f"The last charge was {money(sub.amount, sub.currency)} on {day(sub.last_charge)}.")
         if sub.refund_window:
-            lines.append("That renewal was within the last 14 days and I haven't used the service since. "
-                         "Please refund it if your terms allow.")
+            lines.append("That renewal was within the last 14 days. Please refund it if your terms allow.")
     if sub.account_email:
         lines.append(f"The account email is {sub.account_email}.")
     lines += ["", "Please confirm in writing that it is cancelled and that no further payments will be taken.", "", "Thank you"]
@@ -211,7 +210,7 @@ def html_report(scan, catalogue):
     for title in ("Worth a look", "Left out of the total"):
         m = re.search(rf"## {title}\n\n((?:- .*\n?)+)", md)
         if m:
-            items = "".join(f"<li>{re.sub(r'[*][*](.+?)[*][*]', r'<b>\\1</b>', e(l[2:]))}</li>" for l in m.group(1).strip().splitlines())
+            items = "".join(f"<li>{re.sub(r"[*][*](.+?)[*][*]", lambda m: "<b>" + m.group(1) + "</b>", e(l[2:]))}</li>" for l in m.group(1).strip().splitlines())
             h.append(f"<h2>{title}</h2><ul>{items}</ul>")
     h.append(f"<p class='foot'>Alternatives from RepoQuarry's catalogue as it stood on {e(catalogue.snapshot_date)} (CC BY 4.0). "
              "Licences change, so open the page before you switch.</p></main>")
